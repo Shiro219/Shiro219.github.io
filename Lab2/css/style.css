@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+header {
+    color: blue;
+}
+
+#guessBtn {
+    color: green;
+}
+
+#feedback {
+}

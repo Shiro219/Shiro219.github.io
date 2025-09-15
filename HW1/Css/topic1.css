@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: #0066CC;
+}
+.ButtonA {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    background-color: turquoise;
+    margin:0 auto;
+    padding: 20px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+p {
+    color: green;
+    font-size: large;
+    margin: 20px auto;
+    width: 75%;
+}
+h3 {
+    color: aquamarine;
+    text-align: center;
+    font-size: 38px;
+    margin:0 auto;
+    padding: 20px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
