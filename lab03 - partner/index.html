@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
+</head>
+<body>
+    
+    <h1> Are you smarter than a 1st Grader? </h1>
+
+    <div id="questionOne"> 1. What CSS property changes the text color? </div> <!-- name attribute only for radio buttons -->
+
+    <label>
+        <input type="radio" name="q1" value="Text-Color"> Text-Color
+    </label>
+    <label>
+        <input type="radio" name="q1" value="Font-Color"> Font-Color
+    </label>
+    <label>
+        <input type="radio" name="q1" value="color"> color
+    </label>
+
+    <br>
+
+    <div id="questionTwo"> 2. What's in the sky and is colored yellow? </div>
+
+    <label>
+        <input type="checkbox" id="q2a" value="bird"> A bird
+    </label>
+    <label>
+        <input type="checkbox" id="q2b" value="sun"> The Sun
+    </label>
+    <label>
+        <input type="checkbox" id="q2c" value="plane"> A plane
+    </label>
+
+    <br>
+
+    <div  id="questionThree"> 3. What is 3 + 3? </div>
+    <label>
+        <input id="mathQ" type="number" min="0" max="10" step="1">
+    </label>
+
+    <!--
+    <div> 3. What CSS property changes the text color? </div>
+
+    <div id="q3Options"></div>
+    -->
+
+    <div id="questionFour"> 4. What element is 'He'? </div>
+    <input id="chemElt" type="text">
+
+    <br>
+
+    <div id="questionFive"> 5. What color is the sky? </div>
+    <select id="dropDown">
+        <option value="yellow">Yellow</option>
+        <option value="blue">Blue</option>
+        <option value="brown">Brown</option>
+    </select>
+
+    <br> <br> <br>
+
+    <button> Submit Quiz </button>
+
+    <div id="score"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
