@@ -5,10 +5,104 @@ body {
 header {
     color: blue;
 }
-
+#feedback {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(45, 192, 215);
+}
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: blue;
+}
 #guessBtn {
     color: green;
 }
 
-#feedback {
+#resetBtn {
+    color: red;
+}
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(32, 168, 68);
+}
+#response {
+    font-weight: bold;
+    font-size: 20px;
+}
+#answers {
+    font-weight: bold;
+    font-size: 20px;
+}
+#guessBox {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+}
+strong {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(84, 31, 175);
+}
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(234, 18, 18);
+}
+#winCount {
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+}
+#lossCount {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+#totalGames {
+    font-weight: bold;
+    font-size: 20px;
+    color: purple;
+}
+#guessCount {
+    font-weight: bold;
+    font-size: 20px;
+}
+#gameStats {
+    font-weight: bold;
+    font-size: 20px;
+}
+#gameArea {
+    font-weight: bold;
+    font-size: 20px;
+}
+#footer {
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+}
+#footer a {
+    color: gray;
+}
+#footer a:hover {
+    color: black;
+}
+#footer a:visited {
+    color: purple;
+}
+#footer a:active {
+    color: red;
+}
+#footer a:link {
+    color: blue;
+}
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
 }
