@@ -21,6 +21,7 @@
     <div id="guessStuff">
     <input id="guessBox" type="text" size="5">
     <button id="guessBtn"> Guess! </button>
+    <button id="resetBtn"> Reset Game </button>
     </div>
 
     <!-- <br> -->
@@ -29,6 +30,14 @@
         <h3>Previous Guesses:</h3>
         <div id="answers"></div>
         <h3 id="response"></h3>
+        <p> 
+            <strong>Wins: </strong><span id="winCount"></span> 
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <strong>Losses: </strong><span id="lossCount"></span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <strong> How many times you've played: </strong><span id="totalGames"></span>
+        </p>
+        
     </div>
 
     <script src="js/script.js">
