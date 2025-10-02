@@ -1,0 +1,77 @@
+body{ 
+    text-align: center;
+    background-image: url(img/11592.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: blue;
+}
+
+#questionOne {
+    font-size: 20px;
+    color: yellow;
+}
+#q3Options{
+    font-size: 20px;
+    color: blue;
+}
+#questionTwo{
+    font-size: 20px;
+    color: yellow;
+}
+
+#feedbackIcon2{
+    font-size: 20px;
+    color: blue;
+}
+#questionThree{
+    font-size: 20px;
+    color: yellow;
+}
+
+#mathQ{
+    font-size: 20px;
+    color: blue;
+}
+#questionFour {
+    font-size: 20px;
+    color: yellow;
+}
+#chemElt{
+    font-size: 20px;
+    color: blue;
+}
+
+
+#questionFive{
+    font-size: 20px;
+    color: yellow;
+}
+
+#dropDown{
+    font-size: 20px;
+    color: blue;
+}
+
+#timesTaken{
+    font-size: 60px;
+    font-style: italic;
+    color: crimson;
+}
+
+
+#score{
+    font-size: 30px;
+    color: paleturquoise;
+}
+
+#button{
+    font-size: 30px;
+    font-weight: lighter;
+    color: blueviolet;
+}
+
+/* 15 css properties displayed
+*/
