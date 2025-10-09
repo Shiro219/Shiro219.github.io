@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-image: url("img/6530.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+        }
+    </style>
+
+
     <title>Lab 4: Sign Up Page</title>
 </head>
+
 <body>
+    <form id="signupForm" action="#" method="post">
     <h1> Sign Up Form </h1>
     <fieldset>
         <legend>Sign Up</legend>
@@ -14,18 +29,44 @@
         Email: <input type="text"><br>
         Phone Number:<input type="text"><br><br>
         Zip Code: <input id="zip" type="text"><br>
-        City: <span id="city"></span> <br>
+        City: <span id="city"></span>
+        <br>
         Latitude: <span id="lat"></span> <br>
         Longitude: <span id="long"></span> <br><br>
-        State: <select id="state"></select>
+        State:
+        <select id="state">
+            <option> Alabama </option>
+        </select>
         <br>
-        Select a County: <select></select><br>
-        Desired Username: <input type="text"><br>
-        Password: <input id= "password" type="password"><br>
-        <div id="suggest"></div><br>
-        Type Password Again: <input type="password"><br>
+        Select a County:
+        <select id="county">
+            <option>
+                Los Angeles
+            </option>
+        </select>
+        <br>
+
+
+        Desired Username: <input id="username" type="text">
+
+        <span id="usernameFeedback"> </span>
+        <br>
+
+
+        Password: <input id="password" type="password">
+        <span id="passwordFeedback"> </span>
+        <br>
+
+        <span id="sugepassword"></span><br>
+        Re-
+        Type Password Again: <input id="retypepassword" type="password"><br>
+        <span id="retypepasswordFeedback"> </span>
+        <br><br>
         <input type="submit" value="Sign up!">
+        <p id="result"></p>
     </fieldset>
+    </form>
     <script src="js/script.js"></script>
 </body>
+
 </html>
