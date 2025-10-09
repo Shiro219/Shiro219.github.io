@@ -1,0 +1,122 @@
+body{
+    background-image: url("/img/6530.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+    text-shadow: 2px 2px lightgrey;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+legend{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: 1px 1px lightgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+fieldset{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: darkgreen;
+    text-shadow: 1px 1px lightgrey;
+    margin-bottom: 50px;
+
+}
+
+input, select{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 5px grey;
+
+}
+input[type="submit"]:hover{
+    background-color: navy;
+}
+span{
+    font-weight: bold;
+}
+#result{
+    font-size: 18px;
+    font-weight: bold;
+    color: darkred;
+    text-shadow: 1px 1px lightgrey;
+    margin-top: 20px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: 1px 1px lightgrey;
+}
+a{
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#city, #lat, #long{
+    font-weight: bold;
+    color: darkgreen;
+}
+#state, #county{
+    font-size: 18px;
+    font-weight: bold;
+    color: darkgreen;
+}
+#state{
+    width: 150px;
+}
+#county{
+    width: 200px;
+}
+#zip{
+    width: 100px;
+}
+
+#error{
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#success{
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#formContainer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
