@@ -6,7 +6,7 @@ const app = express();
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
-//for Express to get values using POST method
+//for Express to get values using POST method Hello
 app.use(express.urlencoded({ extended: true }));
 
 //setting up database connection pool
