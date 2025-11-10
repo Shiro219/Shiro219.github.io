@@ -1,0 +1,8 @@
+#container{
+    display: flex;
+
+}
+body {
+    text-align: center;
+    background-size: cover;
+}

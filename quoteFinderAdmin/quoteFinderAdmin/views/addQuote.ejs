@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("partials/head.ejs") %>
+    <title>New Quote</title>
+</head>
+<body>
+    
+    <h1>New Quote</h1>
+
+    <form action="/addQuote" method="POST" id="addQuoteForm">
+        Quote:
+        <textarea name="quote"></textarea> <br>
+
+        Author:
+        <select name="authorId">
+            <% for (i of authors) { %>
+            <option value="<%=i.authorId%>"><%= i.firstName %> <%= i.lastName %></option>
+            <% } %>
+        </select>
+        
+        <br>
+
+        Category:
+        <select name="category">
+            <% for (i of categories) { %>
+            <option value="<%=i.category%>"><%=i.category%></option>
+            <% } %>
+        </select>
+
+        <br>
+
+        <button>Add Quote</button>
+    </form>
+
+    <div id="feedback"></div>
+
+    <footer>
+        <%- include("partials/footer.ejs") %>
+    </footer>
+
+    <script src="/js/quote.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-image: url(img/background.jpg);
+            text-align: center;
+            margin: 0;
+        }
+    </style>
+
+    <title> Dice Game! </title>
+</head>
+
+<body>
+    <h1> Welcome to the Dice Game! </h1>
+
+
+    <row>
+        <h2> Player </h2>
+
+        <div id="diceImage"></div>
+
+        <button id="rollButton"> Roll the Dice </button>
+
+        <h3> Your Roll: </h3>
+        <h2 id="playerDie"> </h2>
+
+        <br> VS <br>
+
+        <h2> Computer </h2>
+
+        <div id="diceImage2"></div>
+        <button id="rollButtonComp"> Computer Roll </button>
+
+        <h3 id="computerDie"></h3>
+
+    </row>
+
+
+    <div id="feedback">
+        <h3> Result </h3>
+        <h3 id="response"></h3>
+        <h3> Previous roll by player </h3>
+        <div id="answers"></div>
+
+        <h3> Previous roll by Computer </h3>
+        <div id="answersComp"></div>
+
+        <button id="resetBtn"> Reset Game </button>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("partials/head.ejs") %>
+    <title>Famous Quotes - Admin Section</title>
+</head>
+<body>
+    
+    <h1>Famous Quotes - Admin Section</h1>
+
+    <form action="/addAuthor">
+        <button>New Author</button>
+    </form>
+
+    <br>
+
+    <form action="/addQuote">
+        <button>New Quote</button>
+    </form>
+
+    <footer>
+        <%- include("partials/footer.ejs") %>
+    </footer>
+    
+</body>
+</html>

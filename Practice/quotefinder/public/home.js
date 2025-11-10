@@ -1,0 +1,12 @@
+document.querySelector("#searchByKeywordForm").addEventListener("submit", validateKeyword);
+
+function validateKeyword(){
+
+    let keyword = document.querySelector("input[name=keyword]").value;
+    if (keyword.length < 3) {
+        alert("keyword must be longer than 3 characters");
+        event.preventDefault(); //prevents the submission of the form.
+    }
+
+
+}

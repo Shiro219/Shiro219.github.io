@@ -1,0 +1,80 @@
+body {
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#diceImage, #diceImage2 {
+    margin: 40px;
+}
+#diceImage img, #diceImage2 img {
+    width: 300px;
+}
+#rollButton, #rollButtonComp {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+#winCount, #lossCount, #totalGames {
+    font-weight: bold;
+}
+
+#answers {
+    font-size: 25px;
+    margin-top: 10px;
+}
+#response {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#computerDie {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer {
+    margin-top: 20px;
+}
+h2 {
+    color: #333;
+}
+h3 {
+    font-size: 30px;
+    color: #4188d9;
+}
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+#feedback {
+    margin-top: 30px;
+}
+#answersComp {
+    font-size: 25px;
+    margin-top: 10px;
+}
+#response {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#computerDie {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#resetBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 30px;
+}

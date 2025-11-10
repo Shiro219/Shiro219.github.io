@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("partial/head.ejs") %>
+        <%- include("partial/footer.ejs") %>
+
+</head>
+
+<body class="text-center">
+
+    <h1 class="bg-primary text-white p-4"> Famoust Quotes </h1>
+
+    <form id="searchByKeywordForm" action="/searchByKeyword" method="GET">
+        <label>Keyword: <input type="text" name="keyword" id="keyword"></label>
+        <button class="btn btn-outline-success">Search</button>
+    </form>
+
+    <div id="keywordError" style="color: red;"> </div>
+
+
+    <br>
+
+    <form action="/searchByAuthor">
+
+        Author:
+        <select name="authorId">
+            <% for (row of rows) { %>
+                <option value="<%=row.authorId %>">
+                    <%=row.firstName %>
+                        <%=row.lastName %>
+                </option>
+                <% } %>
+        </select>
+        <button class="btn btn-outline-sucess"> Search </button>
+
+
+
+    </form>
+
+
+
+    <br>
+
+    <form action="/searchByCategory">
+
+        Category:
+        <select name="category">
+            <% for (row of rows2) {%>
+                <option value="<%=row.category %>">
+                    <%=row.category %>
+                </option>
+
+                <%} %>
+
+        </select>
+        <button class="btn btn-outline-sucess"> Search </button>
+    </form>
+
+    <form action="/searchByLikes">
+
+        <label>LowerRange: <input type="text" name="like1"> </label>
+        <label>UpperRange: <input type="text" name="like2"> </label>
+        <button class="btn btn-success">Search</button>
+    </form>
+
+
+    <script>
+
+        document.querySelector("#searchByKeywordForm").addEventListener("submit", validateKeyword);
+
+        function validateKeyword() {
+
+            let keyword = document.querySelector("input[name=keyword]").value;
+            let keywordError = document.querySelector("#keywordError");
+            
+            keywordError.textContent = "";
+            if (keyword.length < 3) {
+
+                keywordError.textContent = "keyword must be longer than 3 characters";
+                keywordError.style.color = "red";
+                event.preventDefault(); //prevents the submission of the form.
+                } else {
+        document.querySelector("input[name=keyword]").style.border = "";
+    }
+
+
+        }
+    </script>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

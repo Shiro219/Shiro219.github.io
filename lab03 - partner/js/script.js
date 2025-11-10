@@ -5,7 +5,7 @@ document.querySelector("button").addEventListener("click", gradeQuiz);
 
 function displayQ3Options() {
 
-    let q3Options = ["Font-Color", "color", "Text-Color"];
+    let q3Options = ["Spanish", "French", "English"];
     q3Options = _.shuffle(q3Options);
 
     let container = document.querySelector("#q3Options");

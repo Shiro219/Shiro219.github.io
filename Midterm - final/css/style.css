@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+    color: blue;
+    text-size-adjust: 30px;
+}
+
+h2{
+    text-align: center;
+    color: green;
+    text-size-adjust: 20px;
+}
+body
+{
+    background-image: url(../img/345.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#video{
+    text-align: center;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#like{
+    margin-left: 600px;
+    margin-top: 20px;
+    background-color: lightblue;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#comments{
+    margin-left: 600px;
+    margin-top: 20px;
+    background-color: lightgreen;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#dropDown{
+    margin-left: 600px;
+    margin-top: 20px;
+    background-color: lightcoral;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#report{
+    margin-left: 600px;
+    margin-top: 20px;
+    background-color: lightgrey;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#likeCount{
+    font-size: 20px;
+    color: red;
+    margin-left: 10px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: purple;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    margin-top: 20px;
+}
